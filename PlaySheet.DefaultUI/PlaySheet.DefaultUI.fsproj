@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\Common.props" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\PlaySheet\PlaySheet.fsproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Controls\SeekBar.fs" />
+    <Compile Include="Controls\TitleBar.fs" />
+
+    <Compile Include="Library.fs" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "clr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/PlaySheet/bin/Debug/net461/PlaySheet.exe",
+      "args": ["-e", "${workspaceFolder}/PlaySheet.DefaultUI/bin/Debug/net461/PlaySheet.DefaultUI.dll"],
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopAtEntry": false,
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}
